@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+body {
+  /* height: 100vh; */
+  width: 100vw;
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(21, 207, 249, 0.5));
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    margin-top: 20px;
+
+}
+a{
+    text-decoration: none;
+        color:black;
+
+}
+a:hover{
+    text-decoration: none;
+        color:#0fb2c1;
+
+}
+.logo img {
+    height: 6rem;
+    cursor: pointer;
+}
+.header_list{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    /* color:#0fb2c1; */
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 22px;
+    font-style: normal;
+    cursor: pointer;
+
+}
+.header_list list:hover{
+    color:#0fb2c1;
+    text-decoration: underline;
+    
+}
+.head_btn{
+    display: flex;
+    gap:20px;
+}
+.btn{
+    padding:5px 8px;
+    /* gap:20px; */
+    font-weight: 700;
+    font-size: 1rem;
+    border:none;
+    border-radius:5%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn_near{
+    padding:5px 8px;
+    /* gap:20px; */
+    font-weight: 700;
+    font-size: 1rem;
+    border:none;
+    border-radius:5%;
+    /* background-color: #fff; */
+    cursor: pointer;
+    color:#fff;
+    background-color: #0fb2c1;
+}
+.btn_near a{
+    background-color: #0fb2c1;
+    color: #fff;
+}
+.btn_near a:hover{
+    background-color: #fff;
+    color: #0fb2c1;
+}
+.btn_near:hover{
+    /* padding:5px 8px; */
+
+    background-color: #fff;
+    color: #0fb2c1;
+}
+.btn.signup{
+    background-color: #0fb2c1;
+    color: #fff;
+}
+.btn.signup:hover{
+    background-color: #fff;
+    color: #0fb2c1;
+}
+.btn.login:hover{
+    color:#0fb2c1;
+    text-decoration: underline;
+}
+.hero{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 30px 0 30px;
+    /* max-height: fit-content; */
+    /* height: 500px; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+.hero .section1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+
+}
+.hero .section1 h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.hero .section1 p{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.hero .section1 p span{
+    font-size: 2rem;
+}
+.hero .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    width:50%;
+}
+.hero .section2 img{
+    width: 70%;
+    /* height: 100%; */
+    border-radius: 50%;
+    box-shadow: 15px 10px 10px  8px #2e3b3c;
+}
+.hero_middle h1{
+    background-color:#0fb2c1;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+.hero_middle .bgc{
+    /* margin-top: 20px; */
+    /* margin-bottom: px; */
+    height: 1000px;
+    width: 100vw;
+    opacity: 20%;
+    position: absolute;
+}
+.hero_middle .features{
+    
+    margin-top: 10px;
+    font-size: large;
+    padding: 40px;
+}
+.feature_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    gap:20px;
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+.feature_list li{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    /* align-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+.feature_list li img{
+    height:300px;
+    width: 300px;
+}
+
+
+
+.hero_map{
+    /* margin: 3rem 2rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* width: 100vw; */
+    margin-top: 200px;
+    height: 600px;
+    /* width:70%; */
+    /* border: 1px solid black; */
+}
+.hero_map h1{
+    background-color:#0fb2c1;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+#map {
+  height: 600px;
+  margin: 0px auto;
+  width: 1000px;
+  /* border: 5px solid white; */
+  background-color: black;
+  /* transition: all 0.5s; */
+  /* padding: 10px; */
+}
